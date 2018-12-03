@@ -20,7 +20,7 @@
   },
   "author": "Vlad Balin <https://github.com/gaperton>",
   "contributors": [],
-  "dependencies": {
+  "peerDependencies": {
     "jquery": "*",
     "tslib": "*",
     "type-r": "git+https://github.com/Volicon/Type-R.git#develop",
