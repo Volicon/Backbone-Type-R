@@ -1,0 +1,49 @@
+{
+  "name": "nestedbackbone",
+  "version": "1.0.0-a00",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "description": "BackboneJS compatibility layer for the NestedTypes/Type-R",
+  "homepage": "https://github.com/Volicon/NestedBackbone",
+  "keywords": [
+    "backbonejs",
+    "relations",
+    "nested",
+    "model",
+    "collection",
+    "properties"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Volicon/NestedBackbone.git"
+  },
+  "author": "Vlad Balin <https://github.com/gaperton>",
+  "contributors": [],
+  "peerDependencies": {
+    "jquery": "*",
+    "underscore": "*",
+    "type-r": "*"
+  },
+  "devDependencies": {
+    "@types/jquery": "^2.0.51",
+    "jquery": "*",
+    "type-r": "^3.0.0-a06",
+    "typescript": "^3.2.1",
+    "underscore": "*"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "src",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run compile",
+    "compile": "node_modules/.bin/tsc"
+  },
+  "dependencies": {
+    "tslib": "^1.9.3"
+  }
+}
