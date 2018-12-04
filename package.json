@@ -1,6 +1,6 @@
 {
   "name": "backbone-type-r",
-  "version": "1.0.0-a02",
+  "version": "1.0.0-a03",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -22,7 +22,8 @@
   "contributors": [],
   "peerDependencies": {
     "jquery": "*",
-    "underscore": "*"
+    "underscore": "*",
+    "type-r": "^3.0.0-a00"
   },
   "dependencies": {
     "tslib": "*",
