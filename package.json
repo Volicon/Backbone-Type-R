@@ -22,15 +22,15 @@
   "contributors": [],
   "peerDependencies": {
     "jquery": "*",
-    "tslib": "*",
-    "type-r": "^3.0.0-a00",
     "underscore": "*"
+  },
+  "dependencies": {
+    "tslib": "*",
+    "type-r": "Volicon/Type-R.git#develop"
   },
   "devDependencies": {
     "@types/jquery": "^2.0.51",
     "jquery": "*",
-    "tslib": "*",
-    "type-r": "Volicon/Type-R.git#develop",
     "typescript": "^3.2.1",
     "underscore": "*"
   },
