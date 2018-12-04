@@ -1,6 +1,6 @@
 {
-  "name": "backbone-type-r",
-  "version": "1.0.0-a03",
+  "name": "nestedtypes",
+  "version": "1.0.0-a04",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
