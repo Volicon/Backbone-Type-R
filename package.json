@@ -1,6 +1,6 @@
 {
   "name": "backbone-type-r",
-  "version": "1.0.0-a01",
+  "version": "1.0.0-a02",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
