@@ -30,7 +30,8 @@ const Nested : typeof TypeR & typeof Backbone = Object.create( TypeR,
     toProps( Backbone )
 ));
 
-export { Store, Record, attributes, value, type, subsetOf, from, shared, transaction } from 'type-r';
+export * from 'type-r';
+//export { Store, Record, attributes, value, type, subsetOf, from, shared, transaction } from 'type-r';
 
 export default Nested;
 export { Backbone, RestStore, LazyStore, RestCollection as Collection, RestModel as Model };
