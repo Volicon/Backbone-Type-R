@@ -26,14 +26,14 @@
     "type-r": "^3.0.0-a00"
   },
   "dependencies": {
-    "tslib": "*",
-    "type-r": "Volicon/Type-R.git#develop"
+    "tslib": "*"
   },
   "devDependencies": {
     "@types/jquery": "^2.0.51",
     "jquery": "*",
     "typescript": "^3.2.1",
-    "underscore": "*"
+    "underscore": "*",
+    "type-r": "Volicon/Type-R.git#develop"
   },
   "files": [
     "dist",
