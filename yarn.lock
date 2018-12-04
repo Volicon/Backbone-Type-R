@@ -17,9 +17,9 @@ tslib@*:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
 
-"type-r@git+https://github.com/Volicon/Type-R.git#develop":
+type-r@Volicon/Type-R.git#develop:
   version "3.0.0-a06"
-  resolved "git+https://github.com/Volicon/Type-R.git#b43d0283de5a8175148cce3ea33e0aae368b7bd1"
+  resolved "https://codeload.github.com/Volicon/Type-R/tar.gz/b43d0283de5a8175148cce3ea33e0aae368b7bd1"
   dependencies:
     tslib "*"
 

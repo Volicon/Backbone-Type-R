@@ -23,12 +23,16 @@
   "peerDependencies": {
     "jquery": "*",
     "tslib": "*",
-    "type-r": "git+https://github.com/Volicon/Type-R.git#develop",
+    "type-r": "^3.0.0-a00",
     "underscore": "*"
   },
   "devDependencies": {
     "@types/jquery": "^2.0.51",
-    "typescript": "^3.2.1"
+    "jquery": "*",
+    "tslib": "*",
+    "type-r": "Volicon/Type-R.git#develop",
+    "typescript": "^3.2.1",
+    "underscore": "*"
   },
   "files": [
     "dist",
