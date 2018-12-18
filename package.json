@@ -1,6 +1,6 @@
 {
   "name": "nestedtypes",
-  "version": "1.0.0-a04",
+  "version": "1.0.0",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -8,11 +8,13 @@
   "homepage": "https://github.com/Volicon/Backbone-Type-R",
   "keywords": [
     "backbonejs",
-    "relations",
-    "nested",
+    "type-r",
+    "nestedtypes",
     "model",
     "collection",
-    "properties"
+    "serialization",
+    "validation",
+    "observable"
   ],
   "repository": {
     "type": "git",
@@ -22,8 +24,8 @@
   "contributors": [],
   "peerDependencies": {
     "jquery": "*",
-    "underscore": "*",
-    "type-r": "^3.0.0-a00"
+    "type-r": "^3.0.0",
+    "underscore": "*"
   },
   "dependencies": {
     "tslib": "*"
@@ -31,9 +33,9 @@
   "devDependencies": {
     "@types/jquery": "^2.0.51",
     "jquery": "*",
+    "type-r": "Volicon/Type-R",
     "typescript": "^3.2.1",
-    "underscore": "*",
-    "type-r": "Volicon/Type-R.git#develop"
+    "underscore": "*"
   },
   "files": [
     "dist",
@@ -43,7 +45,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "npm run compile",
+    "build": "yarn && npm run compile",
     "compile": "node_modules/.bin/tsc"
   }
 }
