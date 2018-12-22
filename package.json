@@ -28,6 +28,7 @@
     "underscore": "*"
   },
   "dependencies": {
+    "cuttlebelle": "^1.0.0-alpha.57",
     "tslib": "*"
   },
   "devDependencies": {
@@ -47,5 +48,10 @@
   "scripts": {
     "build": "yarn && npm run compile",
     "compile": "node_modules/.bin/tsc"
+  },
+  "cuttlebelle": {
+     "site": {
+       "markdownRenderer": "yourextension.js"
+     }
   }
 }
